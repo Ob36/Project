@@ -1,0 +1,82 @@
+name: urban_home
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  page_transition: ^1.1.7+6
+  flutter_slidable: ^0.6.0
+  fluttertoast: ^8.0.8
+  intl_phone_number_input: ^0.7.0+2
+  flutter_spinkit: ^4.1.2+1
+  dotted_border: ^1.0.6
+  # horizontal_calendar_widget: ^1.0.0
+  dotted_line: ^2.0.2
+  font_awesome_flutter: ^8.11.0
+  calendar_timeline: ^0.7.1
+  http:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+module:
+  androidX: true
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/painters/
+    - assets/carpenters/
+    - assets/plumbers/
+    - assets/bestOffers/
+    - assets/icon/
+    - assets/provider/
+    - assets/service-image/
+    - assets/service-include/
+    - assets/user/
+    - assets/icon/white/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/montserrat/Montserrat-Regular.ttf
+        - asset: fonts/montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: fonts/montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: fonts/montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: fonts/montserrat/Montserrat-Light.ttf
+          weight: 300
